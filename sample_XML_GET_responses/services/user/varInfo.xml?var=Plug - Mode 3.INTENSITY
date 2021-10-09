@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<varInfo>
+    <var>
+	<id>Plug - Mode 3.INTENSITY</id>
+	<idEx>Plug - Mode 3.INTENSITY</idEx>
+	<title>Max. intensity of socket</title>
+	<hasValue>T</hasValue>
+	<hasLogger>F</hasLogger>
+	<hasForced>T</hasForced>
+	<sampleMode>last</sampleMode>
+	<measureUnits>#A</measureUnits>
+	<unitsFactor>0</unitsFactor>
+	<decimals>0</decimals>
+    </var>
+</varInfo>

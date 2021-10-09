@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<deviceState>
+    <id>20B67538-1C58-11EC-1C58-11EC8DCB713F</id>
+    <device>Plug - Mode 3</device>
+    <variable>
+	<id>Plug - Mode 3.ANRCCC</id>
+	<text>
+	    <textValue>
+		<value>152.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.RCCC</id>
+	<text>
+	    <textValue>
+		<value>32.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.STCHPLUG</id>
+	<text>
+	    <textValue>
+		<value>65.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.APILOT</id>
+	<text>
+	    <textValue>
+		<value>895.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.INDIGITAL</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.RELEOUT</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.OUTPILOT</id>
+	<text>
+	    <textValue>
+		<value>1.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.ERROR</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.LOCK_STATUS</id>
+	<text>
+	    <textStr>-</textStr>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.CC</id>
+	<text>
+	    <textValue>
+		<value>1.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.BEGINDATE</id>
+	<text>
+	    <textStr>-</textStr>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.ENDDATE</id>
+	<text>
+	    <textStr>-</textStr>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.TIME</id>
+	<text>
+	    <textStr>-</textStr>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.PREDUCTION</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.INTENSITY</id>
+	<text>
+	    <textValue>
+		<value>32.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.EOUTPILOT</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.STBLOCK</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.OUT_OF_SERVICE</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.BEACON</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.BEACON_R</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.BEACON_G</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.BEACON_B</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.PWM_STATE</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.PILOT_STATE</id>
+	<text>
+	    <textValue>
+		<value>1.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.KEEP_PILOT_ALIVE</id>
+	<text>
+	    <textValue>
+		<value>1.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.DIGITAL_COM</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.STATE</id>
+	<text>
+	    <textValue>
+		<value>-100.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.EV_CONNECTED</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.NAME</id>
+	<text>
+	    <textStr>Plug - Mode 3</textStr>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.DESCRIPTION</id>
+	<text>
+	    <textStr>
+	    </textStr>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.VDTTM</id>
+	<text>
+	    <textDate>
+		<date>06102021125907</date>
+	    </textDate>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Mode 3.STATUS</id>
+	<text>
+	    <textValue>
+		<value>1.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+</deviceState>

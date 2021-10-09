@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<devicesInfo>
+    <deviceInfo>
+        <id>Display</id>
+	<type>DISPLAYCCL1MINI</type>
+	<typeDescription>CCL1Mini Display</typeDescription>
+	<var>Display.BACKLIGHT</var>
+	<var>Display.DESCRIPTION</var>
+	<var>Display.NAME</var>
+	<var>Display.STATUS</var>
+	<var>Display.TEXT</var>
+	<var>Display.VDTTM</var>
+    </deviceInfo>
+</devicesInfo>

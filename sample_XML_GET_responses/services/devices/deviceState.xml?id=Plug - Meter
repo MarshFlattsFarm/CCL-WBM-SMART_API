@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<deviceState>
+    <id>214BBED6-1C58-11EC-1C58-11EC8DCB713F</id>
+    <device>Plug - Meter</device>
+    <variable>
+	<id>Plug - Meter.VI</id>
+	<text>
+	    <textValue>
+		<value>239.500000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.AI</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.API</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.IPI</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.CPI</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.VAI</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.PFI</id>
+	<text>
+	    <textValue>
+		<value>1.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.VMX</id>
+	<text>
+	    <textValue>
+		<value>249.400000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.AMX</id>
+	<text>
+	    <textValue>
+		<value>0.060000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.APMX</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.IPMX</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.CPMX</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.VAMX</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.PFMX</id>
+	<text>
+	    <textValue>
+		<value>1.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.VMN</id>
+	<text>
+	    <textValue>
+		<value>211.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.AMN</id>
+	<text>
+	    <textValue>
+		<value>0.040000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.APMN</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.IPMN</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.CPMN</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.VAMN</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.PFMN</id>
+	<text>
+	    <textValue>
+		<value>2.550000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.MDI</id>
+	<text>
+	    <textValue>
+		<value>0.010000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.MDMX</id>
+	<text>
+	    <textValue>
+		<value>0.050000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.AE</id>
+	<text>
+	    <textValue>
+		<value>4855.390000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.IE</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.CE</id>
+	<text>
+	    <textValue>
+		<value>307.960000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.PAE</id>
+	<text>
+	    <textValue>
+		<value>4855.390000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.PIE</id>
+	<text>
+	    <textValue>
+		<value>0.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.PCE</id>
+	<text>
+	    <textValue>
+		<value>307.960000</value>
+	    </textValue>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.AEB</id>
+	<text>
+	    <textStr>-</textStr>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.IEB</id>
+	<text>
+	    <textStr>-</textStr>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.CEB</id>
+	<text>
+	    <textStr>-</textStr>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.NAEB</id>
+	<text>
+	    <textStr>-</textStr>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.NIEB</id>
+	<text>
+	    <textStr>-</textStr>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.NCEB</id>
+	<text>
+	    <textStr>-</textStr>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.AEE</id>
+	<text>
+	    <textStr>-</textStr>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.IEE</id>
+	<text>
+	    <textStr>-</textStr>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.CEE</id>
+	<text>
+	    <textStr>-</textStr>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.NAEE</id>
+	<text>
+	    <textStr>-</textStr>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.NIEE</id>
+	<text>
+	    <textStr>-</textStr>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.NCEE</id>
+	<text>
+	    <textStr>-</textStr>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.RPE</id>
+	<text>
+	    <textStr>-</textStr>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.NAME</id>
+	<text>
+	    <textStr>Plug - Meter</textStr>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.DESCRIPTION</id>
+	<text>
+	    <textStr></textStr>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.VDTTM</id>
+	<text>
+	    <textDate>
+		<date>06102021134400</date>
+	    </textDate>
+	</text>
+    </variable>
+    <variable>
+	<id>Plug - Meter.STATUS</id>
+	<text>
+	    <textValue>
+		<value>1.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+</deviceState>

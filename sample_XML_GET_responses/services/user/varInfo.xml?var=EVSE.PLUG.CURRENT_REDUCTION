@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<varInfo>
+    <var>
+	<id>EVSE.PLUG.CURRENT_REDUCTION</id>
+	<idEx>EVSE.PLUG.CURRENT_REDUCTION</idEx>
+	<title>Reduction of assigned power</title>
+	<hasValue>T</hasValue>
+	<hasLogger>F</hasLogger>
+	<hasForced>T</hasForced>
+	<sampleMode>last</sampleMode>
+	<unitsFactor>0</unitsFactor>
+	<decimals>0</decimals>
+    </var>
+</varInfo>

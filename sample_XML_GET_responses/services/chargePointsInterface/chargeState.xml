@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chargesState>
+    <chargeState>
+        <id>47D21F22-D016-44CB-A373-9578B8CE7349.4F81287C-B0F0-425E-A957-82E31508AB52</id>
+	<name>EVSE.PLUG</name>
+	<number>1</number>
+	<chargeId>88E917C2-1B23-11EC-1B23-11EC84329941</chargeId>
+	<state>0</state>
+	<chargingPhases>0</chargingPhases>
+    </chargeState>
+</chargesState>

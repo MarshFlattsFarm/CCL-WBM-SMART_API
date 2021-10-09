@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<devicesInfo>
+    <deviceInfo>
+        <id>CCL1Mini</id>
+	<type>CCL1MINIEMBEDDED</type>
+	<typeDescription>CCL1Mini Embedded</typeDescription>
+	<serialNumber>904xxxxxxx</serialNumber>
+	<var>CCL1Mini.DESCRIPTION</var>
+	<var>CCL1Mini.DI1</var>
+	<var>CCL1Mini.DI2</var>
+	<var>CCL1Mini.DI3</var>
+	<var>CCL1Mini.DI4</var>
+	<var>CCL1Mini.DI5</var>
+	<var>CCL1Mini.DI6</var>
+	<var>CCL1Mini.DI7</var>
+	<var>CCL1Mini.DI8</var>
+	<var>CCL1Mini.DO1</var>
+	<var>CCL1Mini.DO2</var>
+	<var>CCL1Mini.DO3</var>
+	<var>CCL1Mini.DO4</var>
+	<var>CCL1Mini.KEYPAD1</var>
+	<var>CCL1Mini.KEYPAD2</var>
+	<var>CCL1Mini.KEYPAD3</var>
+	<var>CCL1Mini.KEYPAD4</var>
+	<var>CCL1Mini.NAME</var>
+	<var>CCL1Mini.PWMO1</var>
+	<var>CCL1Mini.PWMO10</var>
+	<var>CCL1Mini.PWMO11</var>
+	<var>CCL1Mini.PWMO12</var>
+	<var>CCL1Mini.PWMO2</var>
+	<var>CCL1Mini.PWMO3</var>
+	<var>CCL1Mini.PWMO4</var>
+	<var>CCL1Mini.PWMO5</var>
+	<var>CCL1Mini.PWMO6</var>
+	<var>CCL1Mini.PWMO7</var>
+	<var>CCL1Mini.PWMO8</var>
+	<var>CCL1Mini.PWMO9</var>
+	<var>CCL1Mini.RO1</var>
+	<var>CCL1Mini.RO2</var>
+	<var>CCL1Mini.RUNTIME</var>
+	<var>CCL1Mini.STATUS</var>
+	<var>CCL1Mini.TCI</var>
+	<var>CCL1Mini.TFI</var>
+	<var>CCL1Mini.VDTTM</var>
+    </deviceInfo>
+</devicesInfo>

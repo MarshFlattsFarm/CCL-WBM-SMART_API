@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<devicesInfo>
+    <deviceInfo>
+        <id>EVSE</id>
+	<type>CCL1ENGINE</type>
+	<typeDescription>CCL1 Engine</typeDescription>
+	<var>EVSE.DESCRIPTION</var>
+	<var>EVSE.ERROR</var>
+	<var>EVSE.NAME</var>
+	<var>EVSE.PLUG.AE</var>
+	<var>EVSE.PLUG.AEB</var>
+	<var>EVSE.PLUG.AEE</var>
+	<var>EVSE.PLUG.AEP</var>
+	<var>EVSE.PLUG.AI</var>
+	<var>EVSE.PLUG.API</var>
+	<var>EVSE.PLUG.BEACON</var>
+	<var>EVSE.PLUG.BEACON_B</var>
+	<var>EVSE.PLUG.BEACON_G</var>
+	<var>EVSE.PLUG.BEACON_R</var>
+	<var>EVSE.PLUG.BEGINDATE</var>
+	<var>EVSE.PLUG.CC</var>
+	<var>EVSE.PLUG.CHARGE</var>
+	<var>EVSE.PLUG.CONSUMED_CREDITS</var>
+	<var>EVSE.PLUG.CREDITS</var>
+	<var>EVSE.PLUG.CURRENT_REDUCTION</var>
+	<var>EVSE.PLUG.ENABLE</var>
+	<var>EVSE.PLUG.ENDDATE</var>
+	<var>EVSE.PLUG.ERROR</var>
+	<var>EVSE.PLUG.LOCK</var>
+	<var>EVSE.PLUG.OVERCURRENT</var>
+	<var>EVSE.PLUG.REMOTE_PAUSE</var>
+	<var>EVSE.PLUG.REMOTE_START</var>
+	<var>EVSE.PLUG.REMOTE_STOP</var>
+	<var>EVSE.PLUG.REQUESTDATE</var>
+	<var>EVSE.PLUG.RESERVE</var>
+	<var>EVSE.PLUG.RESERVE_EX</var>
+	<var>EVSE.PLUG.STATE</var>
+	<var>EVSE.PLUG.STOPPED</var>
+	<var>EVSE.PLUG.TCCL</var>
+	<var>EVSE.PLUG.TIME</var>
+	<var>EVSE.PLUG.TOTAL_CHARGE_TIME</var>
+	<var>EVSE.PLUG.VI</var>
+	<var>EVSE.RUNTIME</var>
+	<var>EVSE.STATUS</var>
+	<var>EVSE.TAG</var>
+	<var>EVSE.TAG_EX</var>
+	<var>EVSE.VDTTM</var>
+    </deviceInfo>
+</devicesInfo>

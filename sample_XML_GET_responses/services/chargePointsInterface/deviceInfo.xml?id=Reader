@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<devicesInfo>
+    <deviceInfo>
+        <id>Reader</id>
+	<type>TAGREADER</type>
+	<typeDescription>Tag reader</typeDescription>
+	<var>Reader.BUZZER</var>
+	<var>Reader.DESCRIPTION</var>
+	<var>Reader.NAME</var>
+	<var>Reader.RESTRICTED</var>
+	<var>Reader.STATUS</var>
+	<var>Reader.TAG</var>
+	<var>Reader.TAGEX</var>
+	<var>Reader.TIME</var>
+	<var>Reader.VDTTM</var>
+    </deviceInfo>
+</devicesInfo>

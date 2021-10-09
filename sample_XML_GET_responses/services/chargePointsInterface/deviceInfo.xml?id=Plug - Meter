@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<devicesInfo>
+    <deviceInfo>
+        <id>Plug - Meter</id>
+	<type>CVM1D</type>
+	<typeDescription>CVM-1D</typeDescription>
+	<var>Plug - Meter.AE</var>
+	<var>Plug - Meter.AEB</var>
+	<var>Plug - Meter.AEE</var>
+	<var>Plug - Meter.AI</var>
+	<var>Plug - Meter.AMN</var>
+	<var>Plug - Meter.AMX</var>
+	<var>Plug - Meter.API</var>
+	<var>Plug - Meter.APMN</var>
+	<var>Plug - Meter.APMX</var>
+	<var>Plug - Meter.CE</var>
+	<var>Plug - Meter.CEB</var>
+	<var>Plug - Meter.CEE</var>
+	<var>Plug - Meter.CPI</var>
+	<var>Plug - Meter.CPMN</var>
+	<var>Plug - Meter.CPMX</var>
+	<var>Plug - Meter.DESCRIPTION</var>
+	<var>Plug - Meter.IE</var>
+	<var>Plug - Meter.IEB</var>
+	<var>Plug - Meter.IEE</var>
+	<var>Plug - Meter.IPI</var>
+	<var>Plug - Meter.IPMN</var>
+	<var>Plug - Meter.IPMX</var>
+	<var>Plug - Meter.MDI</var>
+	<var>Plug - Meter.MDMX</var>
+	<var>Plug - Meter.NAEB</var>
+	<var>Plug - Meter.NAEE</var>
+	<var>Plug - Meter.NAME</var>
+	<var>Plug - Meter.NCEB</var>
+	<var>Plug - Meter.NCEE</var>
+	<var>Plug - Meter.NIEB</var>
+	<var>Plug - Meter.NIEE</var>
+	<var>Plug - Meter.PAE</var>
+	<var>Plug - Meter.PCE</var>
+	<var>Plug - Meter.PFI</var>
+	<var>Plug - Meter.PFMN</var>
+	<var>Plug - Meter.PFMX</var>
+	<var>Plug - Meter.PIE</var>
+	<var>Plug - Meter.RPE</var>
+	<var>Plug - Meter.STATUS</var>
+	<var>Plug - Meter.VAI</var>
+	<var>Plug - Meter.VAMN</var>
+	<var>Plug - Meter.VAMX</var>
+	<var>Plug - Meter.VDTTM</var>
+	<var>Plug - Meter.VI</var>
+	<var>Plug - Meter.VMN</var>
+	<var>Plug - Meter.VMX</var>
+    </deviceInfo>
+</devicesInfo>

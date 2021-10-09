@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<devices>
+    <id>CCL1Mini</id>
+    <id>Display</id>
+    <id>Plug - Mode 3</id>
+    <id>Reader</id>
+    <id>Plug - Meter</id>
+    <id>EVSE</id>
+</devices>

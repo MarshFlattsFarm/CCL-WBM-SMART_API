@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<devicesInfo>
+    <deviceInfo>
+        <id>Plug - Mode 3</id>
+	<type>MODO3</type>
+	<typeDescription>M3CD</typeDescription>
+	<var>Plug - Mode 3.ANRCCC</var>
+	<var>Plug - Mode 3.APILOT</var>
+	<var>Plug - Mode 3.BEACON</var>
+	<var>Plug - Mode 3.BEACON_B</var>
+	<var>Plug - Mode 3.BEACON_G</var>
+	<var>Plug - Mode 3.BEACON_R</var>
+	<var>Plug - Mode 3.BEGINDATE</var>
+	<var>Plug - Mode 3.CC</var>
+	<var>Plug - Mode 3.DESCRIPTION</var>
+	<var>Plug - Mode 3.DIGITAL_COM</var>
+	<var>Plug - Mode 3.ENDDATE</var>
+	<var>Plug - Mode 3.EOUTPILOT</var>
+	<var>Plug - Mode 3.ERROR</var>
+	<var>Plug - Mode 3.EV_CONNECTED</var>
+	<var>Plug - Mode 3.INDIGITAL</var>
+	<var>Plug - Mode 3.INTENSITY</var>
+	<var>Plug - Mode 3.KEEP_PILOT_ALIVE</var>
+	<var>Plug - Mode 3.LOCK_STATUS</var>
+	<var>Plug - Mode 3.NAME</var>
+	<var>Plug - Mode 3.OUTPILOT</var>
+	<var>Plug - Mode 3.OUT_OF_SERVICE</var>
+	<var>Plug - Mode 3.PILOT_STATE</var>
+	<var>Plug - Mode 3.PREDUCTION</var>
+	<var>Plug - Mode 3.PWM_STATE</var>
+	<var>Plug - Mode 3.RCCC</var>
+	<var>Plug - Mode 3.RELEOUT</var>
+	<var>Plug - Mode 3.STATE</var>
+	<var>Plug - Mode 3.STATUS</var>
+	<var>Plug - Mode 3.STBLOCK</var>
+	<var>Plug - Mode 3.STCHPLUG</var>
+	<var>Plug - Mode 3.TIME</var>
+	<var>Plug - Mode 3.VDTTM</var>
+    </deviceInfo>
+</devicesInfo>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<deviceState>
+    <id>1DF03532-1C58-11EC-1C58-11EC8DCB713F</id>
+    <device>Display</device>
+    <variable>
+        <id>Display.TEXT</id>
+	<text>
+	    <textStr>PLUG:                Available           </textStr>
+	</text>
+    </variable>
+    <variable>
+        <id>Display.BACKLIGHT</id>
+	<text>
+	    <textStr>-</textStr>
+	</text>
+    </variable>
+    <variable>
+	<id>Display.NAME</id>
+	<text>
+	    <textStr>Display</textStr>
+	</text>
+    </variable>
+    <variable>
+        <id>Display.DESCRIPTION</id>
+	<text>
+	    <textStr></textStr>
+	</text>
+    </variable>
+    <variable>
+	<id>Display.VDTTM</id>
+	<text>
+	    <textDate>
+		<date>06102021125454</date>
+	    </textDate>
+	</text>
+    </variable>
+    <variable>
+	<id>Display.STATUS</id>
+	<text>
+	    <textValue>
+	    <value>1.000000</value>
+	    </textValue>
+	</text>
+    </variable>
+</deviceState>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plugsState>
+    <plugState>
+        <id>47D21F22-D016-44CB-A373-9578B8CE7349.4F81287C-B0F0-425E-A957-82E31508AB52</id>
+	<name>EVSE.PLUG</name>
+	<number>1</number>
+	<state>0</state>
+	<previousState>0</previousState>
+	<stateDate>1633452632.093000</stateDate>
+	<error>0</error>
+	<vehicleConnected>F</vehicleConnected>
+	<locked>F</locked>
+    </plugState>
+</plugsState>

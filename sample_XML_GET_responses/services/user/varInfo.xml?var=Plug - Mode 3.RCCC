@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<varInfo>
+    <var>
+	<id>Plug - Mode 3.RCCC</id>
+	<idEx>Plug - Mode 3.RCCC</idEx>
+	<title>Value of the code of the cable</title>
+	<hasValue>T</hasValue>
+	<hasLogger>F</hasLogger>
+	<hasForced>T</hasForced>
+	<sampleMode>last</sampleMode>
+	<unitsFactor>0</unitsFactor>
+	<decimals>0</decimals>
+    </var>
+</varInfo>
