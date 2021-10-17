@@ -10,3 +10,5 @@ The generic aspects of the PowerStudio SCADA API are covered in the documentatio
 available at: http://powerstudioscada.circutor.com/en/documents
 
 This GitHub repository provides examples of the XML files returned by API calls to a CCL-WBM-SMART EVSE unit as well as some guidance on the specifics of the `chargePointsInterface` API.
+
+Some of the information was taken from a Final Degree Project report (in Spanish) which is available for download from a couple of archive locations - use your favourite Internet search engine to look for reports on the subject of `MyCirCarLife`.
