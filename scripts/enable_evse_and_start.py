@@ -1,5 +1,5 @@
 #
-#   Simple script to be run at 00:30, at the start of the Octopus Go low-tariff period 
+#   Simple script to be run at the start of the Octopus Go low-tariff period 
 #     - Checks there is a vehicle connected
 #     - Put the EVSE into the 'Enabled' state
 #     - Remotely starts the charging
@@ -7,10 +7,10 @@
 #   Assumes that 'evse' is the hostname of a Circontrol EVSE unit
 #
 #   Imports
-import time                         # For time.sleep
-import urllib                       # For handling URL parameters with embedded strings
-import requests                     # For HTTP GET & PUT
-from xml.etree import ElementTree   # For basic XML processing
+import time			# For time.sleep
+import urllib			# For handling URLs with embedded spaces
+import requests			# For HTTP GET & PUT
+import xmltodict		# For XML processing
 #
 #   Constants
 HTTP_STATUS_OK = 200
@@ -23,10 +23,10 @@ api_url_base = 'http://evse/services/user/'
 def get_variable(variable):
     """Return the Value of a Circontrol EVSE Variable.
     
-    Note that the Value is always returned as a String, so something like a boolean 'True'
-    is actually returned as '1.000000' (that's six zeros)
+    Note that the Value is always returned as a String, so something like a
+    boolean 'True' is actually returned as '1.000000' (that's six zeros)
     """
-    #   Some of the Variable names have embedded spaces which need converting to '%20'
+    #   Some of the Variable names have spaces which need converting to '%20'
     #   By default, these get converted to '+' which doesn't work
     quoted_params = urllib.parse.urlencode({'var': variable}, quote_via=urllib.parse.quote)
 
@@ -36,34 +36,24 @@ def get_variable(variable):
         raise SystemExit('API GET not successful; HTTP Status = ' + str(response.status_code))
     
     #   Parse and return the value
-    root = ElementTree.fromstring(response.content)
-    for variable in root:
-        for var_child in variable:
-            if var_child.tag == 'value':
-                return(var_child.text)
+    xmldict = xmltodict.parse(response.content)
+    value = xmldict['values']['variable']['value']
+    return value
 
-    #   There's probably never a case when the API worked but the XML doesn't contain the value,
-    #   but if that does ever happen return None
-    return None
 #
 #   Function to Set a new value for the specified Variable
 def set_variable(variable, value):
     """Set the Value of a Circontrol EVSE Variable.
     
-    Specify the fully-qualified Variable name, including the Device name (before the first '.')
+    Specify the fully-qualified Variable name, including the Device name
+    (before the first '.')
     """
-    #   Create the XML body ready for the API call
-    root = ElementTree.Element('forceVariables')
-    forceVar = ElementTree.SubElement(root, 'forceVar')
-    forceName = ElementTree.SubElement(forceVar, 'forceName')
-    forceValue = ElementTree.SubElement(forceVar, 'forceValue')
-    forceName.text = variable
-    forceValue.text = str(value)
-    xmldata = ElementTree.tostring(root)
+    #   Create the XML payload ready for the API call
+    xmldata = xmltodict.unparse({'forceVariables': {'forceVar': {'forceName': variable, 'forceValue': value}}})
 
     #   Extract the Device name prefix from the Variable (up to the first '.')
     device = variable.split('.')[0]
-    #   Some of the Device names have embedded spaces which need converting to '%20'
+    #   Some of the Device names have spaces which need converting to '%20'
     #   By default, these get converted to '+' which doesn't work
     quoted_params = urllib.parse.urlencode({'id': device}, quote_via=urllib.parse.quote)
     #   Call the EVSE API to set the value
@@ -81,15 +71,15 @@ if connected != '1.000000':
     raise SystemExit('No vehicle connected; nothing to do')
 
 #   Ensure we are currently disabled
-enabled = get_variable('EVSE.PLUG.ENABLE')
-if enabled == '1.000000':
+outofservice = get_variable('Plug - Mode 3.OUT_OF_SERVICE')
+if outofservice == '0.000000':
     #   TODO: Check if Paused and Un-Pause?
     raise SystemExit('EVSE is already Enabled; nothing to do')
 
 #   ALL CHECKS COMPLETED - PREPARE TO START CHARGING
 
 #   Enable the EVSE
-set_variable('EVSE.PLUG.ENABLE', 1)
+set_variable('Plug - Mode 3.OUT_OF_SERVICE', 0)
 
 #   Wait 5 seconds for everything to settle
 time.sleep(5)
