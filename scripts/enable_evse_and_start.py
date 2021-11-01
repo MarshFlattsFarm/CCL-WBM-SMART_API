@@ -65,24 +65,22 @@ def set_variable(variable, value):
 
 #   MAIN PROGRAM
 
-#   Ensure we have a vehicle connected
+#   Check we're in the state we expect - Out Of Service
+outofservice = get_variable('Plug - Mode 3.OUT_OF_SERVICE')
+if outofservice == '0.000000':
+    raise SystemExit('EVSE is already Enabled; nothing to do')
+
+#   Go ahead and Enable the EVSE
+set_variable('Plug - Mode 3.OUT_OF_SERVICE', 0)
+
+#   Wait 5 seconds for the state change to propagate
+time.sleep(5)
+
+#   See if we have a vehicle connected
 connected = get_variable('EVSE.PLUG.CC')
 if connected != '1.000000':
     raise SystemExit('No vehicle connected; nothing to do')
 
-#   Ensure we are currently disabled
-outofservice = get_variable('Plug - Mode 3.OUT_OF_SERVICE')
-if outofservice == '0.000000':
-    #   TODO: Check if Paused and Un-Pause?
-    raise SystemExit('EVSE is already Enabled; nothing to do')
-
-#   ALL CHECKS COMPLETED - PREPARE TO START CHARGING
-
-#   Enable the EVSE
-set_variable('Plug - Mode 3.OUT_OF_SERVICE', 0)
-
-#   Wait 5 seconds for everything to settle
-time.sleep(5)
-
-#   Request a Remote Start
+#   Remotely start charging
 set_variable('EVSE.PLUG.REMOTE_START', 1)
+
